@@ -18,7 +18,7 @@ public class UsersController {
     private UserService userService;
 
     @GetMapping(value = "/")
-    public String index(ModelMap model) {
+    public String index() {
         return "index";
     }
 
